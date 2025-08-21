@@ -1,0 +1,71 @@
+# Сборка
+bin/
+obj/
+out/
+[Bb]uild/
+[Bb]uilds/
+
+# Пользовательские файлы IDE
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# Пакеты
+*.nupkg
+*.snupkg
+packages/
+# Но оставляем пустой packages.config для зависимостей
+!packages/*.config
+
+# Логи и временные
+*.log
+*.tlog
+*.tmp
+*.bak
+
+# Тесты и профилирование
+TestResult*/
+*.VisualState.xml
+*.coverage
+*.coveragexml
+*.testsettings
+*.trx
+
+# Entity Framework / БД
+*.mdf
+*.ldf
+*.ndf
+
+# ASP.NET специфичное
+wwwroot/lib/
+project.lock.json
+project.fragment.lock.json
+
+# NuGet
+.nuget/
+*.nuget.props
+*.nuget.targets
+
+# MSBuild
+*.dbmdl
+*.dbproj.schemaview
+
+# Azure
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishProfiles/
+
+# Docker
+docker-compose.override.yml
